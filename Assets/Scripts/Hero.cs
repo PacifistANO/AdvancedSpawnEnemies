@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-
 [RequireComponent(typeof(SpriteRenderer))]
 public class Hero : MonoBehaviour
 {
