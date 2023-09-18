@@ -27,7 +27,5 @@ public class Spawner : MonoBehaviour
             _countEnemies++;
             yield return spawnTime;
         }
-
-        StopCoroutine(_spawnCoroutine);
     }
 }
